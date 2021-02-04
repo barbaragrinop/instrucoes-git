@@ -1,0 +1,52 @@
+1 - inicia o git na pasta com o 
+	git init
+
+2 - pode criar arquivos através da sua máquina
+	touch <nomearquivo.extensão>
+
+3 - adiciona o arquivo para o git
+	git add <nome do arquivo criado.extensão>
+
+4 - commitar
+	git commit -m ""
+gut 
+5 - git log mostra os autores das alterações e os pontos das mesmas
+	git log
+
+6 - ver os pontos da história -
+	> git log vai gerar códigos para os pontos
+	> pega o código da alteração que vc quer 
+	> git show - mostra o ultimo ponto
+	> git show + código = mostra os detalhes do ponto específico
+
+7 - branch cria uma ramificação - linha do tempo alternativa
+	> git branch <nomedabranch>
+	> para entrar na branch - git checkout <nomedabranch>
+	> para ver todas as linhas - git branch
+	/dessa forma consegue-se colocar uma nova
+	funcionalidade no projeto sem estragar oq
+	foi feito/
+
+8 - ver estrutura da branch
+	> ls -al
+
+9- apagar arquivo da branch
+	> git rm -r <nomedoarquivo.extensão>
+
+10 - unir arquivos das branches com o arquivo principal
+	> git merge <nomedabranche que quer unir>
+	
+11 - apagar a branch	
+	> git branch -D <nomedabranch>
+
+12 - linkar o projeto local ao remoto (repositorio no git)
+	> git remote add origin <link do repositorio>
+
+13 - para ver repositorios remotos
+	> git remote -v
+
+14 - para criar a branch master no repositorio online
+	> git push -u origin master 
+
+15 - mandar todos os arquivos de uma vez
+	>
